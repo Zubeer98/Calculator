@@ -4,14 +4,17 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import BMICalculator from './Calculator/BMICalculator';
-import MortgageCalculator from './Calculator/MortgageCalculator';
+// import MortgageCalculator from './Calculator/MortgageCalculator';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     <BMICalculator/>
-    <MortgageCalculator/>
+    
+    {/* <MortgageCalculator/> */}
+
   </React.StrictMode>
 );
 
